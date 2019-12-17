@@ -16,7 +16,7 @@ are lots of new addition in the center or beginning of document) there will be o
 restructure it in the any convenient time (write some scheduled util for this purpose).
 
 The changes stores in Versions it contains version counter and map of the changes that stores order,
-there are 3 types of changes: addition, removing, editing. Depending on the type and changes order frontend will
+there are 3 types of changes: addition (means tail addition), removing, editing. Depending on the type and changes order frontend will
 understand what to do by provided block index.
 
 We also assume that there is some function on the frontend side that checks if there are some updates every second
